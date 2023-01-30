@@ -24,7 +24,7 @@
 
 **Weekly Assignments**
 - [WA1](https://tinystranger21.github.io/)
-- WA2
+- [WA2]()
 - WA3
 - WA4
 - WA5
