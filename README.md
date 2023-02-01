@@ -8,7 +8,8 @@
 **In-Class Assignments**
 - [ICA1](ICA/ICA1.pdf)
 - [ICA2](ICA/ICA2.pdf)
-- [ICA3]
+- [ICA3a](ICA/ica3a.html)
+- [ICA3b](ICA/ica3b.html)
 - ICA4
 - ICA5
 - ICA6
