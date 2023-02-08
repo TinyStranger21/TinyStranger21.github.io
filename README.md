@@ -10,7 +10,8 @@
 - [ICA2](ICA/ICA2.pdf)
 - [ICA3a](ICA/ica3a.html)
 - [ICA3b](ICA/ica3b.html)
-- ICA4
+- [ICA4](ICA/ICA4.html)
+- [ICA4CSS](CSS/ICA4.css)
 - ICA5
 - ICA6
 - ICA7
