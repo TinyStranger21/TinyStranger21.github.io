@@ -1,0 +1,47 @@
+/*This is the styling for my tiny strangers web page */
+
+h1 {
+    color: red; 
+    background-color: aqua; 
+    border:1rem solid; 
+    transform: rotate(0.005turn);
+}
+
+p,
+dl {
+    color:blueviolet;
+}
+
+li {
+    list-style-type: square;
+}
+
+.special {
+    color:coral;
+    font-weight: bold;
+}
+
+li em {
+    color:rebeccapurple;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:aqua;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+dl dt strong {
+    color:blue;
+}
+
+@media (min-width: 30em) {
+    body {
+      background-color: white;}
+    }
