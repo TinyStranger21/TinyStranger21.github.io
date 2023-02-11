@@ -9,12 +9,8 @@ body {
     font-size: 10px;
     background-color: #ccc;
   }
-  
-  /* Selectors to be matched up with rulesets */
-  
 
-  
-  /* Rulesets to be matched up with selectors */
+  /* */
   
   .card {
     width: 35em;
@@ -38,7 +34,6 @@ body {
   .card article img {
     max-height: 100%;
     background-color: black;
-    /* height:12em; */
     float: right;
   }
 
@@ -74,6 +69,12 @@ body {
     background-color: rgba(0,0,0,0.3); 
     height: 12em;
   }
+
+/* Add comments explaing the header: Header has the Arial Font, a height of 3em, and padding of 1em. The h2 within the header has a font size of 2em, a line height of 1.5em, and a margin of 0. */
+
+/* Add comments explaing the footer: Card footer has a linear gradiant and a border of 1.5 em. Its height is 3em and the padding is 1em. The footers p has a font-size of 1.5em, a padding of 0.5em, and a height of 3em. */
+
+/* Add comments explaing the main body: The card main body has a semi-transparent black two seperate the header and footer. The height of the body is 12ems. The bodys p element has a padding of 2em, left padding of 1em, and a font color of white. The image within the body is contrained within the body and floats to the right side. */
 
 /* Card 2 for McLovin */
 
@@ -142,3 +143,9 @@ body {
     background-color: rgba(99, 106, 143, 0.3); 
     height: 12em;
   }
+
+/* Add comments explaing the header: The header is a Franklin Gothic Medium font, with a light black coloring behind it, a height of 3em and a padding of 1em, and a font color of dark blue. */
+
+/* Add comments explaing the footer: The footer has dark blue text in the same font as the header, a font-size of 2em, a line height of 1.5em, and a height of 3em.*/
+
+/* Add comments explaing the main body: The main body has a slightly blue grey transperent background color with a height of 12em. The footers font is the same as the other fonts but with a black font color. The margin of the paragraph element is zero and the line height is 1.5em. */
