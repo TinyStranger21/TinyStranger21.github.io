@@ -45,3 +45,14 @@ dl dt strong {
     body {
       background-color: white;}
     }
+tr {
+    display: block;
+    background-color: bisque;
+    /* border: 10px; */
+    border-color: black;
+    padding: 4px;
+}
+.flower {
+    border: 10em;
+    border-color: black;
+} /* Don't know why I am not getting a border for this part */

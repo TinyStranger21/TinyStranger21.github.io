@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: white;
+  }
+  
+  article {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative; /*edits below*/
+    border-top: 5mm solid red;
+    border-bottom: 5mm solid red;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)) ,
+      url("/ICA/top-image.png") no-repeat left top, url("/ICA/bottom-image.png") no-repeat left bottom;
+    
+  }
+  
+  address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-image: url("/ICA/logo.png");
+    border-radius: 64px;
+    /*border-image: url(/ICA/logo.png) 60px round; */
+    box-shadow: 3px 3px 3px black ;
+  }
+  
+  /* Your CSS below here */
+
+  /* article {
+    background-image: url(/ICA/top-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    border-color: crimson;
+    border: 1mm;
+    border-top: 0;
+    border-bottom: 0;
+    /* background-image: url(/ICA/bottom-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom; */
+
+    /* background-position: Top Center;
+    width: 100% */
+    /* background-size:; 
+  } */
+/* 
+  article h1 {
+    background-image: url(/ICA/logo.png);
+    background-size: contain;
+  } */
+
+  /* footer {
+    background-image: url(/ICA/bottom-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+
+  } */
+
+  /* .logo {
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    border-radius: 60px;
+    
+  } */
