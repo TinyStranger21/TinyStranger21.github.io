@@ -1,0 +1,220 @@
+/* Plan for overlay:
+Overall I think I want to put a score board at the top of the page.
+Then title cards for each character below the figures.
+*/
+
+/* Image setup */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(/WA/img/Stickman-fighting-WA5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/* #MyBackground {
+    position: center;
+    max-width: 100%;
+     max-height: 100%; */
+    /* width: 20px;
+    height: 30px; */
+    /* object-fit: cover;*/
+/*} */
+
+
+
+
+/* #overlay1 {
+    color: crimson;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+#overlay2 {
+    color: blue;
+    position: fixed;
+    top: 50px;
+    right: 200px;
+} */
+
+/* Fighter Scoreboard css start: */
+#Container {
+    /* background-color: yellowgreen; */
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,0); 
+    width: 600px;
+    height: 80px;
+    border: 10px solid;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-color:firebrick;
+    position: fixed;
+    /* background-color: chartreuse; */
+    background: linear-gradient(to right, rgb(2, 9, 11,1), rgb(252, 252, 252,0.8) 50%, rgba(252,252,252,0.8) 50%, rgba(2,9,11,1));
+}
+
+/* #theStickmanfight {
+    position: absolute center;
+    top: 0px;
+    
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+
+} */
+
+#KO1 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+}
+
+#Score1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+#KO2 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 480px;
+}
+
+#Score2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 45px;
+    left: 500px;
+}
+
+#Time {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 257px;
+}
+
+#Countdown {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 45px;
+    left: 260px;
+}
+/* Fighter Scoreboard css end*/
+
+/*Health Bars*/
+#Healthbar1 {
+    border: 5px solid;
+    border-color: black;
+    position: fixed;
+    left: 110px;
+    top: 100px;
+    width: 200px;
+    height: 25px;
+    background-color: tomato;
+    background: linear-gradient(to right, rgb(231, 36, 11,1) 80%, rgba(252,252,252,0.1) 20%);
+}
+
+#Healthbar2 {
+    border: 5px solid;
+    border-color: black;
+    position: fixed;
+    right: 120px;
+    top: 100px;
+    width: 200px;
+    height: 25px;
+    background-color: tomato;
+    background: linear-gradient(to right, rgb(231, 36, 11,1) 50%, rgba(252,252,252,0.1) 50%);
+}
+/*health bar end*/
+
+/* Fighters name and character image*/
+#BottomContainer {
+    border: 10px solid;
+    border-color:firebrick;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,0); 
+    /* background-color: chartreuse; */
+    background: linear-gradient(to right, rgba(0,187,249,1), rgb(249,33,0,1) 50%, rgba(249,33,0,1) 50%, rgba(0,187,249,1));
+    width: 1520px;
+    height: 100px;
+}
+
+#giga-chad {
+    position: absolute;
+    left: 88%;
+}
+
+#blond-chad {
+    position: absolute;
+    left: 4%;
+}
+
+#Stickmanbottomfight {
+position: absolute;
+/* border: 10px solid;
+border-color: black;
+border-width: 60; */
+/* left: 760px; */
+left: 32%;
+top: 20px;
+color: antiquewhite;
+text-align: center;
+font-size: 3em;
+font-weight: bold;
+font-family:'Times New Roman', Times, serif;
+}
+
+#Todd {
+    /* border: 100px solid;
+    border-color: crimson; */
+    position: absolute;
+    bottom: -4px;
+    left: 150px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Frank {
+    position: absolute;
+    bottom: -4px;
+    margin-top: 0;
+    left: 1130px;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}

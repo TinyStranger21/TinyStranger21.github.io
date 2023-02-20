@@ -1,0 +1,148 @@
+/* Plan for overlay:
+Overall I think I want to put a score board at the top of the page.
+Then title cards for each character below the figures.
+*/
+
+/* Image setup */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(/WA/img/Stickman-fighting-WA5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/* #MyBackground {
+    position: center;
+    max-width: 100%;
+     max-height: 100%; */
+    /* width: 20px;
+    height: 30px; */
+    /* object-fit: cover;*/
+/*} */
+
+
+
+
+/* #overlay1 {
+    color: crimson;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+#overlay2 {
+    color: blue;
+    position: fixed;
+    top: 50px;
+    right: 200px;
+} */
+
+/* Fighter Scoreboard css start: */
+#Container {
+    background-color: yellowgreen;
+    position: fixed;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%,0); 
+    width: 300px;
+    height: 180px;
+}
+#Scoreboard {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* transform: translate(-50%,0); */
+    /* width: 400px;
+    height: 280px; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+}
+
+
+
+#Score1 {
+    color: black;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 135px;
+    left: 60px;
+}
+
+#Score2 {
+    color: black;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 135px;
+    left: 220px;
+}
+
+#Countdown {
+    color: black;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 135px;
+    left: 120px;
+}
+/* Fighter Scoreboard css end*/
+
+
+/* Fighters name and character image*/
+#BottomContainer {
+    border: 10px solid;
+    border-color:firebrick;
+    position: fixed;
+    bottom: 0px;
+    /* background-color: chartreuse; */
+    background: linear-gradient(to right, rgba(0,187,249,1), rgb(249, 33, 0) 50%, rgba(249,33,0,1) 50%, rgba(0,187,249,1));
+    width: 1520px;
+    height: 100px;
+}
+
+
+#giga-chad {
+    position: absolute;
+    left: 87%;
+}
+
+#blond-chad {
+    position: absolute;
+    left: 5%;
+}
+
+#Todd {
+    /* border: 100px solid;
+    border-color: crimson; */
+    position: absolute;
+    bottom: -4px;
+    left: 160px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Frank {
+    position: absolute;
+    bottom: -4px;
+    margin-top: 0;
+    left: 1120px;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
