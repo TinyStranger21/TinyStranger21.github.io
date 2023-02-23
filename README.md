@@ -14,7 +14,7 @@
 - [ICA4CSS](CSS/ICA4.css)
 - [ICA5](ICA/ICA5.html)
 - [ICA5CSS](CSS/ICA5-style.css)
-- ICA6
+- [ICA6](ICA/ica6)
 - ICA7
 - ICA8
 - ICA9
