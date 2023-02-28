@@ -21,7 +21,6 @@ body{
     animation-name: box2move;
     animation-iteration-count: infinite;
     animation-duration: 5s;
-    animation-direction: ;
 }
 
 @keyframes box2move{
