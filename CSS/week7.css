@@ -2,35 +2,114 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: black;    
+
 }
+
+body h1{
+    color: yellow;
+    font-family:fantasy;
+    position: relative;
+    /* animation-name: titlemove;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s; */
+    transition: all 1s;
+}
+
+body h1:hover {
+    color: blueviolet;
+}
+/*
+@keyframes titlemove{
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        left: 100px;
+    }
+
+    50% {
+
+        left: 0px;
+    }
+
+    75% {
+        right: 100px;
+    }
+    100% {
+        right: 0px;
+    }
+} */
+
 nav{
-    height: 50vh;
+    /* height: 50vh; don't know what this is for*/
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:20px;
-    background-color: blueviolet;
+    height:30px;
+    background-color: yellow;
 }
+
 nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 2s;
+}
+
+nav a:hover {
+    background: linear-gradient(to right, rgb(255, 255, 255)10%, rgb(0, 0, 0), rgb(0, 0, 0), rgb(255, 255, 255)90%);
+    /* background-color: black; */
+    color: rgb(255, 255, 255);
 }
 
 
 img{
-    width:30vw;
-    height: 30vh;
+    width:50vw;
+    height: 50vh;
 }
 
 #red-ball{
-    background-color: crimson;
+    background-color:lightgoldenrodyellow;
     width: 20px;
     height:20px;
     border-radius: 50%;
     position: absolute;
     left:5vw;
     top:0;
+    animation-name: redballmove;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+
+/* change this later to move around a ton randomly */
+@keyframes redballmove{
+    0% {
+        left: 0px;
+        top: 0;
+    }
+
+    25% {
+        left: 0px;
+        top: 725px;
+    }
+
+    50% {
+        left: 1515px;
+        top: 725px;  
+    }
+
+    75% {
+        left: 1515px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0;
+    }
 }
