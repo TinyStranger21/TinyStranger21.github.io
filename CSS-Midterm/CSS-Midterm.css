@@ -1,1 +1,217 @@
-/* CSS-Midterm CSS File !!!!!!!!!!!!!!!!!!!!! */
+/* CSS-Midterm CSS File !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+body {
+    /* background-color: cornsilk; */
+    background-color: black;
+    
+    /* text-align: center; */
+}
+
+body h1{
+    text-align: center;
+    color: crimson;
+}
+
+#top {
+    position: relative;
+    /* left: 50%; */
+
+}
+
+/* Navigation Menu Bar !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 1%;
+    
+}
+
+nav a{
+    width: 100%;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 1s;
+    margin: 0;
+    padding: 0;
+}
+
+/* #about:hover {
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+
+#social:hover {
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+} */
+
+nav a:hover {
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+/* main body with all the content related to nav bar !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* I might to put main in its own section because its affected all of the page */
+.main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-left: 0%;
+    font-size: large;
+    
+}
+
+/* This is a set up and testing for distance of website content */ /* Add something that gives each of the h2 elements a padding on the left */
+.main div{
+    /* margin-bottom: 400px;  I need to change this or seperate the main because its adding margins to all divs */
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: aqua;
+    margin-bottom: 40px;
+    /* padding-left: 1%; */
+}
+
+.main p {
+    font-size: x-large;
+    padding-left: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.main a {
+    color: white;
+    transition: all 1s;
+}
+
+.main a:hover {
+    color: red;
+}
+
+.main h2 {
+    padding-left: 13px;
+}
+
+
+/* About me section of webpage !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* I dont know how I feel about percentage padding or fixed padding. Try to Remove borders, make it flow a little bit more. Change font sizes, make them more distinct.
+Think about the feeling of the website.*/
+#aboutmesection {
+    /* margin-bottom: 200px; */
+    padding-left: 13px;
+    overflow: auto;
+}
+
+#aboutmesection img {
+    float: left;
+    margin-right: 1%;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: aqua;
+    /* position:relative;
+    bottom: 5px; */
+    /* width: 20%;
+    height: auto; */
+}
+
+#Orange {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+#Scooter { /*scootering image*/
+    width: 30%;
+    height: auto;
+}
+
+#Kendama {
+    width: 28%;
+    height: auto;
+}
+
+
+
+/* Music Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#musicsection {
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+#gridformusic { /* transfer this to my other css for the music */
+    width: 40%;
+    display: flex;
+    /* grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+    margin: 0;
+    padding: 0;
+    gap: 0px;
+    float: right;
+    position: relative;
+    right: 0;
+    justify-content: flex-end;
+    border-style: solid;
+    border-radius: 1px;
+    margin: 10px;
+}
+
+#OrangeAlbum { /* I need to put this within the box for music. Also I want to make this a grid of images with S.O.M and a scene from music video */ 
+    /* position: absolute;
+    right: 10px; */
+    /* float: right; */
+    width: 33%;
+    height: auto;
+}
+
+#SOMAlbum {
+    width: 33%;
+    height: auto;
+    /* position: absolute;
+    right: 10px; */
+    /* float: right; */
+}
+
+#MusicVid {
+    width: 33%;
+    height: auto;
+    /* position: absolute;
+    right: 10px; */
+    /* float: right; */
+}
+
+#TinyStrangers {
+    transition: all 0.5s;
+    animation-name: tinyanimation;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes tinyanimation{
+    0% {
+        color:aqua;
+    }
+
+    50% {
+        color:rgb(255, 255, 0);
+    }
+}
+
+/* I need to fix my resizing probably with media functions */
+
+
+/* Contacts Section */
+
+ul li{
+    padding-bottom: 5px;
+}

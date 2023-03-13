@@ -33,7 +33,7 @@
 - [WA4CSS](https://tinystranger21.github.io/CSS/wa4.css)
 - [WA5](https://tinystranger21.github.io/WA/wa5.html)
 - [WA6](https://tinystranger21.github.io/WA/wa6.html)
-- WA7
+- [WA7](https://tinystranger21.github.io/WA/wa7.html)
 - WA8
 - WA9
 - WA10

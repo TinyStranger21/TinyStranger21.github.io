@@ -1,0 +1,353 @@
+/* CSS-Midterm CSS File !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+body {
+    /* background-color: cornsilk; */
+    /* background-color:antiquewhite; */
+    background: linear-gradient(180deg, rgb(222, 184, 135,0.8) 20%, rgba(250, 235, 215, 0.1) ); /* Mess with gradiant a lil bit when site structure is done */
+    font-family: cursive;
+    /* text-align: center; */
+}
+
+#top {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    /* height: 60%;
+    width: auto; */
+    font-size: 400%;
+}
+
+/* Nav Bar Design !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 30px;
+    margin: 1%;
+    /* margin-bottom: 1%; */
+    
+}
+
+nav a{
+    width: 100%;
+    font-size: medium;
+    /* height: 100%; */
+    text-align: center;
+    /* position: relative; */
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 1s;
+    padding: 5px; 
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+nav a:hover {
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+/* Main Section global variables !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* main {
+
+} */
+
+.main a {
+    color: rgb(155, 52, 171);
+    transition: all 1s;
+}
+
+.main a:hover {
+    color: red;
+}
+
+/* About Me Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#aboutmesection {
+
+    /* background: linear-gradient(90deg, rgb(222, 184, 135,0.8) 20%, rgba(250, 235, 215, 0.1) ); */
+    margin: 2%;
+    /* margin-top: 3%; */
+    padding: 1%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* font-family: cursive; */
+    line-height: 2.0;
+    
+}
+
+#about-img-grid {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    /* background-color: darksalmon; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    /* flex-direction: row; */
+    gap: 0px;
+    float: right;
+    position: relative;
+    right: 0;
+    align-items: center;
+    padding: 3%;
+    margin-left: 10px;
+    /* justify-items: stretch; */
+    
+    /* justify-content: flex-end; */
+}
+
+@media only screen and (max-width: 500px) {
+    #about-img-grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        gap: 20%;
+    }
+}
+
+
+#about {
+    font-size: xx-large;
+    font-weight: bold;
+    /* font-family: cursive; */
+}
+
+
+#Orange {
+    width: 80%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    justify-self: start;
+    transform: rotate(.03turn);
+
+    /* margin-bottom: 10px; */
+    
+}
+
+#Scooter { /*scootering image*/
+    width: 85%;
+    height: auto;
+    align-self: end;
+    transform: rotate(-0.03turn);
+}
+
+#Kendama {
+    width: 85%;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    align-self: start;
+    transform: rotate(0.02turn);
+}
+
+
+/* Music Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#musicsection {
+    /* background-color: darksalmon */
+    margin: 2%;
+    /* margin-top: 3%; */
+    padding: 1%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* grid-template-rows: 50% 50%; */
+    text-align: center;
+    line-height: 2.0;
+}
+
+#music {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#gridformusic {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;  ?????????????????????????????????*/
+    /* width: 40%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0px; */
+    /* align-content: center; */
+    /* justify-content:center;
+    place-self: center; */
+    /* justify-self: center; ??????*/
+    /* float: center; */
+    position: relative;
+    /* right: 0; */
+    align-self: center;
+    align-items: center;
+    overflow:visible;
+}
+
+@media only screen and (max-width: 500px) {
+    #gridformusic {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 160px;
+        height: auto;
+        align-items: center;
+    }
+
+    #OrangeAlbum {
+        width: 70px;
+        height: auto;
+    }
+
+    #SOMAlbum{
+        width: 70px;
+        height: auto;
+    }
+
+    #MusicVid {
+        width: 70px;
+        height: auto;
+    }
+}
+
+#TinyStrangers {
+    transition: all 0.5s;
+    animation-name: tinyanimation;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes tinyanimation{
+    0% {
+        color:aqua;
+    }
+
+    50% {
+        color:rgb(244, 43, 103);
+    }
+}
+
+#OrangeAlbum {  
+    /* position: absolute;
+    right: 10px; */
+    /* float: right; */
+    width: 33%;
+    /* min-width: 25%; */
+    height: auto;
+    /* grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    justify-self: end; */
+    /* height: 96px;
+    width: auto; */
+}
+
+#SOMAlbum {
+    width: 33%;
+    /* min-width: 25%; */
+    height: auto;
+    /* grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    justify-self: end; */
+    /* height: 96px;
+    width: auto; */
+    /* position: absolute;
+    right: 10px; */
+    /* float: right; */
+}
+
+#MusicVid {
+    width: 43%;
+    /* min-width: 33%; */
+    height: auto;
+    /* grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+    grid-row-end: 3; */
+    /* position: absolute;
+    right: 10px; */
+    /* float: right; */
+}
+
+
+/* Portfolio Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#portfolio {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#portfoliosection {
+    margin: 2%;
+    padding: 1%;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+/* Contacts and Socials Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#Contactandsocial {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    background-color: rgb(216, 216, 216);
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+#contactlist {
+    list-style-type: none;
+}
+
+#contactsection {
+    /* flex:1; */
+    /* background-color: gold; */
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+#sociallist {
+    list-style-type: none;
+}
+
+#socialsection {
+    /* float: right; */
+    /* background-color: coral; */
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    #Contactandsocial {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: left;
+        gap: 0;
+    }
+    
+    #socialsection {
+        height: 200px;
+    }
+
+    #contactsection {
+        height: 150px;
+    }
+}
