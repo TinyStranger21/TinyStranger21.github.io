@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button {
+            border: 10px solid darkmagenta;
+            border-radius: 20px;
+            background-color: magenta;
+            padding: 25px 50px;
+            box-shadow: 15px 10px 10px rgb(0, 0, 0);
+            width: 250px;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        .button2 {
+            float: right;
+            border: 10px solid rgb(0, 130, 139);
+            border-radius: 20px;
+            background-color: rgb(233, 13, 13);
+            padding: 25px 50px;
+            box-shadow: 15px 10px 10px rgb(0, 0, 0);
+            width: 200px;
+            text-align: center;
+            font-size: 60px;
+            margin: 30px;
+        }
+
+        /* #imgofthing {
+            height: 40px;
+            width:auto;
+        } */
+
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>Click me!</p>
+
+    </div>
+
+    <div class="button2">
+        <p>Click me?</p>
+
+    </div>
+
+    <!-- <div id="img">
+        <img id="imgofthing" src="Wii-image.jpg" alt="Image of Wii">
+    </div> -->
+
+
+    <script>
+        console.log("Hello World!") // This is the log for this function
+        const btn = document.querySelector("#button"); // This assings btn to the button we created
+        // co btn = document.querySelector("#button2");
+        // console.log(btn);
+        function changeBtn() { // This is the function that creates the changes when the button is clicked
+           // console.log("This worked!");
+            btn.textContent="Test";
+            btn.style.backgroundColor = "darkmagenta";
+            btn.style.border = "2px solid magenta";
+            btn.style.color = "white";
+
+        }
+
+        function createParagraph() {
+            const btn = document.createElement("p");
+            btn.textContent = "Clicked!!!!";
+            document.body.appendChild(btn);
+        }
+
+        // function changeBackground() {
+        //     const btn = document.createElement("body");
+        //     btn.getElementsByClassName('button2').style.backgroundColor = "lightblue";
+        // }
+
+        // function makeImage() {
+        //     btn.createElement ("img");
+        // }
+
+        btn.addEventListener('click', changeBtn); // This adds the event of when clicked to the button which activates the function changeBtn.
+
+        btn.addEventListener('click', createParagraph);
+        // btn.addEventListener('click', changeBackground);
+
+    </script>
+
+</body>
+</html>

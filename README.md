@@ -1,8 +1,8 @@
 # TinyStranger21.github.io
 
 **Projects**
-- HTML
-- CSS
+- [HTML](html-midterm)
+- [CSS](Index.html)
 - JS
 
 **In-Class Assignments**
