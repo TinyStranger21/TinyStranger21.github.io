@@ -2,7 +2,7 @@
 
 **Projects**
 - [HTML](html-midterm)
-- [CSS](Index.html)
+- [CSS](https://tinystranger21.github.io/index.html)
 - JS
 
 **In-Class Assignments**
