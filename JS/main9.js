@@ -1,10 +1,10 @@
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
-const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const insertY = ["the soup kitchen", "Disneyland", "the White House"];
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+const storyText = "During their spectactular vacation, it was 94 fahrenheit outside, so :insertx: and Bob went for a swim. When they arrived to :inserty: they realized they left their :insertz: at the hotel. They were devastated, distraught, and bamboozled. At least :insertx: had brought their bag of gummy worms that weighs 300 pounds so they could be well fed throughout the day.";
+const insertX = ["Tom Cruise", "Adam Sandler", "Bill Nye"];
+const insertY = ["the bathtub", "WaterWorld", "The Panema Canal"];
+const insertZ = ["limited edition signed copy of The Goonies on VHS", "Frigidaire 20.5 Cu. Ft. Top Freezer Refrigerator", "lifesize Jimmy Fallon cardboard cutout"];
 
 
 function randomValueFromArray(array){

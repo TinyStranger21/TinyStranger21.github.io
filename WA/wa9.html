@@ -10,9 +10,30 @@
     <style>
 
     body {
-      font-family: helvetica, sans-serif;
+      /* font-family: helvetica, sans-serif; */
       width: 350px;
+      height:725px;
+      background: linear-gradient(160deg, rgba(215, 23, 84, 0.8) 20%, rgba(250, 235, 215, 0.1)60%),
+                linear-gradient(90deg, rgba(200,100,135,0.8), rgba(150,200,235)60%),
+                linear-gradient(217deg, rgba(100,230,200, 0.8), rgb(253, 139, 0)60%); 
+      background-repeat: no-repeat;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-size: cover;
     }
+
+    .randomize {
+        background-color: black;
+        color: white;
+        transition: all 1s;
+        border-radius: 30px;
+    }
+
+    .randomize:hover {
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
 
     label {
       font-weight: bold;  
@@ -28,10 +49,12 @@
     }
 
     p {
-      background: #FFC125;
-      color: #5E2612;
+      background: none;
+      width: 600px;
+      color: #000000;
       padding: 10px;
       visibility: hidden;
+      line-height: 2.0;
     }
 
     </style>
