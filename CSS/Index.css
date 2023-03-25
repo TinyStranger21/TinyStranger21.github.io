@@ -135,10 +135,14 @@ main img{
     grid-row-end: span 3;
     justify-self: start;
     transform: rotate(.03turn);
+    transition: all 1s;
     /* box-shadow: 3px 3px 10px rgb(0, 0, 0); */
 
     /* margin-bottom: 10px; */
-    
+}
+
+#Orange:hover {
+    transform: rotate(0turn);
 }
 
 #Scooter { /*scootering image*/
@@ -146,6 +150,11 @@ main img{
     height: auto;
     align-self: end;
     transform: rotate(-0.03turn);
+    transition: all 1s;
+}
+
+#Scooter:hover {
+    transform: rotate(0turn);
 }
 
 #Kendama {
@@ -157,8 +166,12 @@ main img{
     grid-column-end: 3;
     align-self: start;
     transform: rotate(0.02turn);
+    transition: all 1s;
 }
 
+#Kendama:hover {
+    transform: rotate(0turn);
+}
 
 /* Music Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 #musicsection {
