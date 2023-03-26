@@ -13,10 +13,10 @@ const images = ['myPic1.jpg', 'myPic2.JPG', 'myPic3.JPG', 'myPic4.jpg', 'myPic5.
 const alts = ['Jar of Lights', 'Close up of Kais Face', 'Pic of Kai in Front of Lights', 'Orange Kai in Store', 'Pondering Life at Lake Kai']
 
 /* Looping through images */
-for (const image of images) {
+for (let i=0; i<5; i++) {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', `images/${image}`);
-    newImage.setAttribute('alt', `${alts[image]}`);
+    newImage.setAttribute('src', `images/`+images[i]);
+    newImage.setAttribute('alt', alts[i]);
     thumbBar.appendChild(newImage);
     newImage.addEventListener('click', eve => {
         displayedImage.src = eve.target.src;
