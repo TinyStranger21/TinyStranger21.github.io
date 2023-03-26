@@ -135,7 +135,7 @@ main img{
     grid-row-end: span 3;
     justify-self: start;
     transform: rotate(.03turn);
-    transition: all 1s;
+    transition: all 0.6s;
     /* box-shadow: 3px 3px 10px rgb(0, 0, 0); */
 
     /* margin-bottom: 10px; */
@@ -150,7 +150,7 @@ main img{
     height: auto;
     align-self: end;
     transform: rotate(-0.03turn);
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
 #Scooter:hover {
@@ -166,7 +166,7 @@ main img{
     grid-column-end: 3;
     align-self: start;
     transform: rotate(0.02turn);
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
 #Kendama:hover {
@@ -268,6 +268,7 @@ main img{
     width: 33%;
     /* min-width: 25%; */
     height: auto;
+    transform: rotate(0.03turn);
     /* grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -281,6 +282,7 @@ main img{
     width: 33%;
     /* min-width: 25%; */
     height: auto;
+    transform:rotate(-0.06turn)
     /* grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -297,6 +299,7 @@ main img{
     width: 43%;
     /* min-width: 33%; */
     height: auto;
+    transform: rotate(-0.02turn);
     /* grid-column-start: 1;
     grid-column-end: span 2;
     grid-row-start: 3;
