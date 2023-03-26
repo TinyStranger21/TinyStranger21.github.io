@@ -16,9 +16,9 @@
 - [ICA5CSS](CSS/ICA5-style.css)
 - [ICA6](ICA/ica6)
 - [ICA7](ICA/ICA7.html)
-- ICA8
-- ICA9
-- ICA10
+- ICA8 ask about what we put in icas
+- [ICA9](https://tinystranger21.github.io/ICA/ICA9.html)
+- [ICA10](https://tinystranger21.github.io/ICA/ICA10.html)
 - ICA11
 - ICA12
 - ICA13
@@ -35,8 +35,8 @@
 - [WA6](https://tinystranger21.github.io/WA/wa6.html)
 - [WA7](https://tinystranger21.github.io/WA/wa7.html)
 - WA8
-- WA9
-- WA10
+- [WA9](https://tinystranger21.github.io/WA/wa9.html)
+- [WA10](https://tinystranger21.github.io/WA/gallery-start/wa10.html)
 - WA11
 - WA12
 - WA13
