@@ -4,7 +4,7 @@ const nav = document.querySelector('nav');
 const navA = document.querySelector('nav a');
 
 // const colors = ["Black", "White"];
-const colors = ["#247BA0", "#FF1654", "#2D232E", "#9E8FB2", "#F08700", "#64A6BD", "#387780", "#42113C", "#590004", "#B48EAE"]
+const colors = ["black", "#247BA0", "#FF1654", "#2D232E", "#9E8FB2", "#F08700", "#64A6BD", "#387780", "#42113C", "#590004", "#B48EAE"]
 
 function randomValueFromArray(array) {
     const random = Math.floor(Math.random()*array.length);
