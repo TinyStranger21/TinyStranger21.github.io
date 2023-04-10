@@ -10,12 +10,12 @@
 <body>
     <div class="app">
         <header>Random Anime Quote</header>
-        <section class="quotes">
+        <div class="quotes">
           <div class="quote-text" id="js-quote-text"></div>
           <div class="quote-text" id="js-anime-text"></div>
           <div class="quote-text" id="js-character-text"></div>
-        </section>
-        <section class="controls" >
+        </div>
+        <div class="controls" >
           <button type="button" id="js-new-quote" class="new-quote button">
             Generate a new Anime Quote
           </button>
@@ -23,8 +23,13 @@
             Change background color
           </button>
           <!-- <a class="answer button" id="js-tweet" target="_blank" rel="noreferrer">Show me the answer!</a> -->
-        </section>
+        </div>
       </div>
+    <div class="paragraph">
+        I extended this qoute machine in a two ways. First, when you click the new qoute button it changes the qoute, character, anime and it will also change the color of the box (.app).
+        This was done through a random number generator that takes a number from the length of the colors array we made and we give to the function. Second,
+        I added a change background button that takes from the same list as the box color changer and changes the background of the page when you click on it to a random color I have set in an array.
+    </div>
       <script src="wa11.js"></script>
 </body>
 </html>
