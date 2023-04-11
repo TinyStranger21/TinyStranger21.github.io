@@ -13,7 +13,7 @@
         box-sizing: border-box;
       }
     </style>
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="cats.css" />
   </head>
 
   <body>
@@ -31,7 +31,7 @@
     let para1 = document.createElement('p');
     let para2 = document.createElement('p');
     let motherInfo = 'The mother cats are called ';
-    let kittenInfo;
+    let kittenInfo = "";
     const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
 
     fetch(requestURL)
@@ -39,13 +39,47 @@
     .then(text => displayCatInfo(text))
 
     function displayCatInfo(catString) {
-      let total = 0;
-      let male = 0;
+        let total = 0;
+        let male = 0;
 
-      // Add your code here
+      // Add your code 
         //The names of the three mother cats, separated by commas, in the motherInfo variable.
         //The total number of kittens, and how many are male and female, in the kittenInfo variable.
-        
+        const catData = JSON.parse(catString);
+
+        for (i = 0; i < catData.length; i++) {
+            if(i < catData.length - 1) {
+                motherInfo += catData[i].name + ", ";
+            }
+            else
+                motherInfo += "and " + catData[i].name + ".";
+            for (c = 0; c < catData[i]['kittens'].length; c++) {
+                total ++;
+                if(catData[i]['kittens'][c]['gender'] === 'm') {
+                    male += 1;
+                }    
+            }
+        }
+        let female = total - male;
+
+        kittenInfo += "Total amount of Kittens: " + total + ", " + male + " males, " + female + " females";
+
+    // total - male = female
+    // for mom in moms:
+    //      para1.textContent = motherInfo + nameLoop
+    //      const nameLoop {
+
+    //          for i in range(names):
+    //              name + ","
+    //      }
+    //      Name + ","  
+        // for I in kittens.length:
+        //      if kittens[i][1] == m:
+        //          male += 1
+        //      else:
+        //          female += 1
+
+    // total += kitten.length
 
 
 
