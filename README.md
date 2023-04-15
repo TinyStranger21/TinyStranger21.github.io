@@ -10,17 +10,17 @@
 - [ICA2](ICA/ICA2.pdf)
 - [ICA3a](ICA/ica3a.html)
 - [ICA3b](ICA/ica3b.html)
-- [ICA4](ICA/ICA4.html)
+- [ICA4](https://tinystranger21.github.io/ICA/ICA4.html)
 - [ICA4CSS](CSS/ICA4.css)
-- [ICA5](ICA/ICA5.html)
+- [ICA5](https://tinystranger21.github.io/ICA/ICA5.html)
 - [ICA5CSS](CSS/ICA5-style.css)
 - [ICA6](ICA/ica6)
-- [ICA7](ICA/ICA7.html)
+- [ICA7](https://tinystranger21.github.io/ICA/ICA7.html)
 - ICA8 ask about what we put in icas
 - [ICA9](https://tinystranger21.github.io/ICA/ICA9.html)
 - [ICA10](https://tinystranger21.github.io/ICA/ICA10.html)
-- ICA11
-- ICA12
+- [ICA11](https://tinystranger21.github.io/ICA/ICA11.html)
+- [ICA12](https://tinystranger21.github.io/ICA/ica12.html)
 - ICA13
 - ICA14
 - ICA15
@@ -37,8 +37,8 @@
 - WA8
 - [WA9](https://tinystranger21.github.io/WA/wa9.html)
 - [WA10](https://tinystranger21.github.io/WA/gallery-start/wa10.html)
-- WA11
-- WA12
+- [WA11](https://tinystranger21.github.io/WA/wa11.html)
+- [WA12](https://tinystranger21.github.io/WA/wa12.html)
 - WA13
 - WA14
 - WA15
