@@ -11,5 +11,34 @@
 </head>
 <body>
 
+    <div><!-- plus/minus volume changer-->
+        <p>Please select the volume you would like</p>
+        <p class="output">50</p>
+        <form>
+            <input class="minus-button" type="button" name="minus-button" value="MINUS"></input>
+            <input class="plus-button" type="button" name="plus-button" value="PLUS"></input>
+            <input class="reset-button" type="button" name="reset-button" value="RESET"></input>
+            <input class="random-button" type="button" name="random-button" value="RANDOM"></input>
+            <input class="submit-button" type="button" name="submit-button" value="SUBMIT"></input>
+        </form>
+    </div>
+    <div><!-- This will a slider-->
+        <div class="slidecontainer">
+            <p>Please select the volume you'd like.</p>
+            <input type="range" min="0" max="100" class="slider" id="myRange"></input>
+            <input class="slider-submit-button" type="button" name="slider-submit-button" value="SUBMIT"></input>
+            <p class="slider-output"></p>
+        </div>
+    </div>
 </body>
 </html>
+
+<!--Idea: A page of 100 random positioned balls that each have a value associated with it. 
+    When you click on the ball you will get the volume that was assigned on it. 
+    The ball also deletes once you click on it so you only get it once.
+    Or when you scroll down the page, the volume decreases too.
+    I feel like I could do this using a position thing. 
+    Like track the position of an invisible dot so I can track the position on the screen.
+    I would also make a volume text that will float in the middle of the page and ->
+    that will constantly udpate when the page moves up or down.
+-->
