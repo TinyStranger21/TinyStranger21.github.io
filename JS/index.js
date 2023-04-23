@@ -10,13 +10,13 @@ function randomValueFromArray(array) {
     const random = Math.floor(Math.random()*array.length);
     return array[random];
   }
-
+ 
 // var backColor = randomValueFromArray(colors)
 
 
 function changeBackground(bgcolor) {
     nav.style.backgroundColor = bgcolor;
-}
+} 
 
 // function changeText(bgcolor) {
 //     navA.style.color = bgcolor;

@@ -7,12 +7,21 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="wa13.css">
-    <script defer src="wa13.js"></script>
+    <script defer src="wa132.js"></script>
 </head>
 <body>
+    <h1> Scroll Boxes!!! </h1>
+    <div id="volume">Volume: 0</div>
+    <div id="myDiv" onscroll="myFunction()">
+        <div id="content">Scroll <br>to start</div>
+
+        <!--<button type="button" id="numbers">0</button>--> <!--This is where we are going to make a ton of different numbers with different positions-->
+    </div>
+
+    <p id="demo"></p>
 
     <div><!-- plus/minus volume changer-->
-        <p>Please select the volume you would like</p>
+        <!-- <p>Please select the volume you would like</p>
         <p class="output">50</p>
         <form>
             <input class="minus-button" type="button" name="minus-button" value="MINUS"></input>
@@ -20,15 +29,15 @@
             <input class="reset-button" type="button" name="reset-button" value="RESET"></input>
             <input class="random-button" type="button" name="random-button" value="RANDOM"></input>
             <input class="submit-button" type="button" name="submit-button" value="SUBMIT"></input>
-        </form>
+        </form> -->
     </div>
     <div><!-- This will a slider-->
-        <div class="slidecontainer">
+        <!-- <div class="slidecontainer">
             <p>Please select the volume you'd like.</p>
             <input type="range" min="0" max="100" class="slider" id="myRange"></input>
             <input class="slider-submit-button" type="button" name="slider-submit-button" value="SUBMIT"></input>
             <p class="slider-output"></p>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
@@ -41,4 +50,9 @@
     Like track the position of an invisible dot so I can track the position on the screen.
     I would also make a volume text that will float in the middle of the page and ->
     that will constantly udpate when the page moves up or down.
+
+    Another idea adding onto the scroll would be to make a bunch of scroll boxes each doing something different.
+    So one with multiply the number by a certain amount, one that adds a certain amount, one that just changes colors.
+    I could have a ton of boxes that have random functions that I put into an array or that I made and put them into a specified random area.
+    Only two boxes will be able to control the volume. And one box will have the volume displayed.
 -->
