@@ -12,6 +12,28 @@
     border-top-left-radius: 10px;
     border-color: black;
     box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+    animation: alternate;
+    animation-duration: 20s;
+    animation-name: movingBox;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movingBox {
+    0% {
+        top: 50%;
+    }
+    25% {
+        top: 25%;
+    }
+    50% {
+        top: 50%;
+    }
+    75% {
+        top:75%;
+    }
+    100% {
+        top:50%;
+    }
 }
   
 #content {
