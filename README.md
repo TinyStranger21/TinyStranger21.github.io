@@ -3,7 +3,7 @@
 **Projects**
 - [HTML](html-midterm)
 - [CSS](https://tinystranger21.github.io/index.html)
-- JS
+- [JS]()
 
 **In-Class Assignments**
 - [ICA1](ICA/ICA1.pdf)
@@ -39,6 +39,6 @@
 - [WA10](https://tinystranger21.github.io/WA/gallery-start/wa10.html)
 - [WA11](https://tinystranger21.github.io/WA/wa11.html)
 - [WA12](https://tinystranger21.github.io/WA/wa12.html)
-- WA13
+- [WA13](https://tinystranger21.github.io/WA/wa13.html)
 - WA14
 - WA15
