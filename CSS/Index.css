@@ -348,6 +348,11 @@ main img{
     text-align: center;
 }
 
+.portImg {
+    width: 33%;
+    height: auto;
+}
+
 
 /* Contacts and Socials Section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 

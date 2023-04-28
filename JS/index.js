@@ -30,3 +30,12 @@ function changingBackground() {
 
 
 changingBackground();
+
+// function display(element){
+//     const photo = document.querySelector(".portImg");
+//     document.photo.innerHTML = element.alt;
+// }
+// function revert(){
+//     const photo = document.querySelector(".portImg");
+//     document.photo.innerHTML = "Hover over a sunsign image to display details.";
+// }
