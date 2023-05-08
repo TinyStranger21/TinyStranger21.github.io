@@ -69,8 +69,8 @@ function createButton() {
         btn.textContent = i;
         btn.classList.add("numb");
         document.getElementById("myDiv").appendChild(btn);
-        randomPos()
-        btn.style.top = randomPos() + "px";
+        // randomPos();
+        btn.style.top = randomPos() + "px"; 
         btn.style.left = randomPos() + "px";
         // btn.addEventListener('click', volumeChange); // Bring volume change function into our addEventListener 
         btn.addEventListener('click', () => {

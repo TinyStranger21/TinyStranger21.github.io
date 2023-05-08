@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ball Game JS</title>
+        <link rel="stylesheet" href="JS-Final.css">
+    </head>
+    <body><!--When we click start, we can display: none-->
+        <div class="start">
+            <h1 class="largeText" id="title">Oh Balls!</h1> <!--Animate this-->
+            <button id="startButton">Start</button>
+            <button id="customizeButton">Customize</button><!--Next on the agenda-->
+            <!-- <button id="Settings">Settings</button> -->
+        </div>
+
+        <div class="customize">
+            <h1 class="largeText" id="customizeTitle">Customize Game!</h1>
+            <div class="customButtonsLayout">
+                <h2 id="ballColor">Ball</h2>
+                <!-- <button id="back">Back</button> -->
+                <h2 id="background">Background</h2>
+            </div>
+            <div class="colorsGrid" id="ballColorsGrid"> <!--I wanted to make this a javascript append function-->
+            </div>
+            <div id="ballForCustom"></div>
+            <div class="colorsGrid" id="bgColorsGrid">
+            </div>
+            <button id="back">Back</button>
+            <!-- <div id="colorGrid"></div> -->
+        </div>
+
+        <!--For these, have display: none until activated--><!--I think I want to add a 3-2-1 countdown-->
+        <div class="mainGame">
+            <h2 id="timer">10</h2>
+            <h2 class="largeText" id="score">0</h2>
+            <h2 class="largeText" id="addedTime">+num</h2>
+            <!--<h1 class="three21" id="title">3</h1>--><!--321 value -= 1 , if 321 is > 0 then subtract 1 from 321 value-->
+            <!-- <div id="balls"></div> -->
+            <button id="ballsBut"></button>
+
+        </div>
+ 
+
+        <!--This might need to be attached to the previous score that we will have in the last screen-->
+        <div class="end">
+
+            <h1 class="largeText" id="endScore">Final Score: 00</h1> 
+            <button id="homeReturn">Home</button>
+            <button id="restart">Restart</button>
+
+        </div>
+        
+        <script src="/JS-Final/JS-Final.js"></script>
+    </body>
+</html>

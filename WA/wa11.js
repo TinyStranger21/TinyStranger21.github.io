@@ -42,7 +42,7 @@ async function getQuote() {
 
 function displayQuote(quote) {
     const quoteText = document.querySelector("#js-quote-text");
-    quoteText.textContent = `Quote: ${quote}`;
+    quoteText.textContent = `Quote: ${quote}`; 
 }
 // Pre built function for each json we are gathering
 function displayChar(character) {
