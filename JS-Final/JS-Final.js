@@ -82,7 +82,7 @@ function colorGridMaker() {
             const customBall = document.querySelector('#ballForCustom');
             customBall.style.backgroundColor = btn.style.backgroundColor;
             ballsButton.style.backgroundColor = btn.style.backgroundColor;
-            console.log("Clicked");
+            // console.log("Clicked");
         })
     }
     for (i=0; i<=bgColorChoice.length - 1; i++) {;
@@ -93,7 +93,7 @@ function colorGridMaker() {
         btn.addEventListener('click', () => {
             const body = document.querySelector('body');
             body.style.backgroundColor = btn.style.backgroundColor;
-            console.log("Clicked");
+            // console.log("Clicked");
         })
     }
 }
@@ -198,7 +198,7 @@ function time(down, add) { // might need to add "add" to the placeholders!
                 addedTime.textContent = "+ 10";
                 setTimeout(addedLeave, 1000);
                 // console.log(gameScore.textContent);
-                console.log("add" + add);
+                // console.log("add" + add);
                 // if (add == 1) break;
             }
 
@@ -209,7 +209,7 @@ function time(down, add) { // might need to add "add" to the placeholders!
                 addedTime.textContent = "+ 7";
                 setTimeout(addedLeave, 1000);
                 // console.log(gameScore.textContent);
-                console.log("add" + add);
+                // console.log("add" + add);
                 // if (add == 1) break;
             }
 
@@ -220,7 +220,7 @@ function time(down, add) { // might need to add "add" to the placeholders!
                 addedTime.textContent = "+ 5";
                 setTimeout(addedLeave, 1000);
                 // console.log(gameScore.textContent);
-                console.log("add" + add);
+                // console.log("add" + add);
                 // if (add == 1) break;
             }
 
@@ -231,7 +231,7 @@ function time(down, add) { // might need to add "add" to the placeholders!
                 addedTime.textContent = "+ 5";
                 setTimeout(addedLeave, 1000);
                 // console.log(gameScore.textContent);
-                console.log("add" + add);
+                // console.log("add" + add);
                 // if (add == 1) break;
             }
 
@@ -242,7 +242,7 @@ function time(down, add) { // might need to add "add" to the placeholders!
                 addedTime.textContent = "+ 5";
                 setTimeout(addedLeave, 1000);
                 // console.log(gameScore.textContent);
-                console.log("add" + add);
+                // console.log("add" + add);
                 // if (add == 1) break;
             }
             return down;
@@ -274,12 +274,12 @@ function time(down, add) { // might need to add "add" to the placeholders!
 // Add 1 sec for every 10 ball clicks
 // setTimeout(endRound(), 10000);
 
-function endRound() { ///// I might be able to take this part out.....!!!
-    mainGame.style.display = "none";
-    end.style.display = "block";
-    down = 10;
-    console.log('times up');
-}
+// function endRound() { ///// I might be able to take this part out.....!!!
+//     mainGame.style.display = "none";
+//     end.style.display = "block";
+//     down = 10;
+//     console.log('times up');
+// }
 
 function gameplay(value) {
     let score = value;
