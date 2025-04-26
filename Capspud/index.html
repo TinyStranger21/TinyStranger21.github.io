@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPUD - Capstone Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Jost', sans-serif; /* Using Jost as a close alternative to Futura */
+        }
+        
+        body {
+            background-color: white;
+            color: black;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .logo-container {
+            width: 150px;
+            height: 50px;
+            /* background-color: #ffffff; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo-text {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #555;
+        }
+        
+        .hero-section {
+            background-color: black;
+            padding: 60px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hero-logo {
+            width: 300px;
+            height: 450px;
+            /* background-color: #333; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* color: white; */
+        }
+        
+        .intro-section {
+            padding: 60px 10%;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .image-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        
+        .image-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45%;
+            height: 250px;
+            background-color: #ffffff;
+        }
+        
+        .centered-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .why-section {
+            background-color: #f8f8f8;
+            padding: 60px 10%;
+        }
+        
+        .text-area {
+            margin-bottom: 30px;
+            border-left: 3px solid black;
+            padding-left: 20px;
+        }
+        
+        .carousel-section {
+            padding: 60px 5%;
+        }
+        
+        .carousel {
+            position: relative;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .carousel-item {
+            min-width: 300px;
+            height: 200px;
+            margin: 0 10px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .carousel-control {
+            background: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+            }
+            
+            .image-row {
+                flex-direction: column;
+            }
+            
+            .image-placeholder {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/Images-capstone/Spud logo black png-04.png" alt="SPUD Logo" style="width: 100%; height: auto;">
+            <!-- <div class="logo-text">SPUD</div> -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="#">Form</a></li>
+                <li><a href="#">Functionality</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero-section">
+        <div class="hero-logo">
+            <img src="/Images-capstone/Spud logos white png-02.png" alt="SPUD Logo" style="width: 250%; height: auto;">
+            <!-- <p>SPUD LOGO</p> -->
+        </div>
+    </section>
+    
+    <section class="intro-section">
+        <h1>What is SPUD?</h1>
+        <p>SPUD is an innovative capstone project that aims to revolutionize how we interact with technology. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc eget ultricies tincidunt, nisl neque aliquam nisl, eget aliquam nisl nunc eget nisl. Nullam auctor, nunc eget ultricies tincidunt, nisl neque aliquam nisl, eget aliquam nisl nunc eget nisl.</p>
+        <p>Our team designed SPUD to address common challenges in the industry while providing an elegant, user-friendly solution that can scale for various applications.</p>
+        
+        <div class="image-row">
+            <div class="image-placeholder">
+                <img src="/Images-capstone/Potato controller png.png" alt="SPUD Logo" class="centered-image">
+            </div>
+            <div class="image-placeholder">
+                <p>Final Controller Image</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="why-section">
+        <h2>Why Make SPUD?</h2>
+        
+        <div class="text-area">
+            <h3>Problem Solving</h3>
+            <p>SPUD was created to solve critical problems in today's technological landscape. With increasing demands for efficient and scalable solutions, SPUD steps in to bridge important gaps in functionality.</p>
+        </div>
+        
+        <div class="text-area">
+            <h3>Innovation</h3>
+            <p>Our approach combines cutting-edge techniques with practical implementation strategies, resulting in a solution that's both forward-thinking and immediately applicable.</p>
+        </div>
+        
+        <div class="text-area">
+            <h3>User-Centered Design</h3>
+            <p>Every aspect of SPUD was designed with the end user in mind, ensuring intuitive interfaces and seamless experiences across all touchpoints.</p>
+        </div>
+        
+        <div class="text-area">
+            <h3>Sustainability</h3>
+            <p>We've built SPUD with long-term viability in mind, incorporating adaptable architecture that can evolve with changing technologies and user needs.</p>
+        </div>
+    </section>
+    
+    <section class="carousel-section">
+        <h2>SPUD Gallery</h2>
+        <div class="carousel">
+            <div class="carousel-inner" id="carousel">
+                <div class="carousel-item">Image 1</div>
+                <div class="carousel-item">Image 2</div>
+                <div class="carousel-item">Image 3</div>
+                <div class="carousel-item">Image 4</div>
+                <div class="carousel-item">Image 5</div>
+                <!-- Additional images will be added via JavaScript -->
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-control" onclick="prevSlide()">Previous</button>
+                <button class="carousel-control" onclick="nextSlide()">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // Generate additional carousel items
+        const carousel = document.getElementById('carousel');
+        const currentItems = carousel.querySelectorAll('.carousel-item').length;
+        
+        for (let i = currentItems + 1; i <= 15; i++) {
+            const newItem = document.createElement('div');
+            newItem.className = 'carousel-item';
+            newItem.textContent = `Image ${i}`;
+            carousel.appendChild(newItem);
+        }
+        
+        // Carousel functionality
+        let currentPosition = 0;
+        const itemWidth = 320; // Width + margin
+        const visibleItems = Math.floor(window.innerWidth / itemWidth);
+        const maxPosition = document.querySelectorAll('.carousel-item').length - visibleItems;
+        
+        function nextSlide() {
+            if (currentPosition < maxPosition) {
+                currentPosition++;
+                updateCarousel();
+            }
+        }
+        
+        function prevSlide() {
+            if (currentPosition > 0) {
+                currentPosition--;
+                updateCarousel();
+            }
+        }
+        
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentPosition * itemWidth}px)`;
+        }
+        
+        // Responsive adjustments
+        window.addEventListener('resize', function() {
+            const newVisibleItems = Math.floor(window.innerWidth / itemWidth);
+            const newMaxPosition = document.querySelectorAll('.carousel-item').length - newVisibleItems;
+            
+            if (currentPosition > newMaxPosition) {
+                currentPosition = newMaxPosition;
+                updateCarousel();
+            }
+        });
+    </script>
+</body>
+</html>
