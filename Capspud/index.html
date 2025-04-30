@@ -112,27 +112,27 @@
         
         .image-placeholder {
             display: flex;
-            align-items: center;
             justify-content: center;
-            width: 45%;
-            height: 250px;
-            background-color: #ffffff;
+            align-items: center;
+            margin-top: 20px; /* Adds spacing between the text and the image */
         }
-        
+
         .centered-image {
             max-width: 100%;
-            max-height: 100%;
+            height: auto;
             object-fit: contain;
         }
         
         .why-section {
-            background-color: #f8f8f8;
+            background-color: #000000;
+            color: white;
             padding: 60px 10%;
         }
         
         .text-area {
             margin-bottom: 30px;
-            border-left: 3px solid black;
+            border-left: 3px solid rgb(255, 255, 255); /* Left border for emphasis. The lines next to the sections */
+            color: white;
             padding-left: 20px;
         }
         
@@ -152,7 +152,7 @@
         }
         
         .carousel-item {
-            min-width: 300px;
+            min-width: 300px; /* Width of each item */
             height: 200px;
             margin: 0 10px;
             background-color: #ddd;
@@ -160,6 +160,14 @@
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
+        }
+
+        .carousel-item img {
+            width: 100%; /* Make the image take up the full width of the container */
+            height: 100%; /* Make the image take up the full height of the container */
+            object-fit: cover; /* Ensures the image fills the container without distortion */
+            margin: 0; /* Remove any default margins */
+            padding: 0; /* Remove any default padding */
         }
         
         .carousel-controls {
@@ -225,13 +233,8 @@
         <p>SPUD is an innovative capstone project that aims to revolutionize how we interact with technology. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc eget ultricies tincidunt, nisl neque aliquam nisl, eget aliquam nisl nunc eget nisl. Nullam auctor, nunc eget ultricies tincidunt, nisl neque aliquam nisl, eget aliquam nisl nunc eget nisl.</p>
         <p>Our team designed SPUD to address common challenges in the industry while providing an elegant, user-friendly solution that can scale for various applications.</p>
         
-        <div class="image-row">
-            <div class="image-placeholder">
-                <img src="/Images-capstone/Potato controller png.png" alt="SPUD Logo" class="centered-image">
-            </div>
-            <div class="image-placeholder">
-                <p>Final Controller Image</p>
-            </div>
+        <div class="image-placeholder">
+            <img src="/Images-capstone/Potato controller png.png" alt="SPUD Logo" class="centered-image" style="width: 40%; height: auto;">
         </div>
     </section>
     
@@ -239,13 +242,14 @@
         <h2>Why Make SPUD?</h2>
         
         <div class="text-area">
-            <h3>Problem Solving</h3>
-            <p>SPUD was created to solve critical problems in today's technological landscape. With increasing demands for efficient and scalable solutions, SPUD steps in to bridge important gaps in functionality.</p>
+            <h3>Money</h3>
+            <p>Accessiblity controllers are 2-3 times the price of a traditional gaming controller. In order to combat this a make sure SPUD was accessible to everyone, we tried our best to develop the controller around the price of traditional gaming controller. 
+                We achieved this through the utulization of 3D printers and Arduinos.</p>
         </div>
         
         <div class="text-area">
-            <h3>Innovation</h3>
-            <p>Our approach combines cutting-edge techniques with practical implementation strategies, resulting in a solution that's both forward-thinking and immediately applicable.</p>
+            <h3>Size</h3>
+            <p>Accessiblity controllers take up a lot of space. SPUD brings back the familiarity and compactness of traditional gaming controllers into hands</p>
         </div>
         
         <div class="text-area">
@@ -263,7 +267,7 @@
         <h2>SPUD Gallery</h2>
         <div class="carousel">
             <div class="carousel-inner" id="carousel">
-                <div class="carousel-item">Image 1</div>
+                <div class="carousel-item"><img src="/Images-capstone/IMG_3873.PNG" alt="Image 1" style="width: 15%; height: auto;"></div>
                 <div class="carousel-item">Image 2</div>
                 <div class="carousel-item">Image 3</div>
                 <div class="carousel-item">Image 4</div>
